@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
   grid-gap: 10px;
-  background-color: rebeccapurple;
+  background-color: rgb(75, 209, 250);
   padding: 10px;
 }
 
@@ -14,8 +14,8 @@
 }
 
 .tt > div:hover{
-  background-color: yellow;
-  color: red;
+  background-color: black;
+  color: gold;
 }
 
 .break{
