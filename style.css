@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto;
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: rebeccapurple;
   padding: 10px;
 }
 
@@ -11,4 +11,9 @@
   text-align: center;
   padding: 10px;
   font-size: 20px;
+}
+
+.tt > div:hover{
+  background-color: yellow;
+  color: red;
 }
