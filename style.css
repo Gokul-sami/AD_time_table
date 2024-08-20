@@ -9,7 +9,6 @@ body {
   background-color: #4bd1fa;
   padding: 7px;
   overflow-x: auto;
-  white-space: nowrap;
 }
 
 .tt > div{
