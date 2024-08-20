@@ -1,9 +1,16 @@
-.tt{
+body {
+  overflow-x: auto;
+}
+
+.tt {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: repeat(11, auto);
   grid-gap: 10px;
   background-color: rgb(75, 209, 250);
   padding: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .tt > div{
@@ -15,7 +22,7 @@
 
 .tt > div:hover{
   background-color: black;
-  color: gold;
+  color: rgb(224, 191, 2);
 }
 
 .break{
