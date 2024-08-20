@@ -23,3 +23,7 @@
   align-items: center;
   grid-row-end: span 6;
 }
+
+.cdlab{
+  grid-column: span 2;
+}
