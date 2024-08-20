@@ -1,6 +1,6 @@
 .tt{
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
   grid-gap: 10px;
   background-color: rebeccapurple;
   padding: 10px;
@@ -16,4 +16,10 @@
 .tt > div:hover{
   background-color: yellow;
   color: red;
+}
+
+.break{
+  display: flex;
+  align-items: center;
+  grid-row-end: span 6;
 }
