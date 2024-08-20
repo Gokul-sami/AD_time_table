@@ -5,9 +5,9 @@ body {
 .tt {
   display: grid;
   grid-template-columns: repeat(11, auto);
-  grid-gap: 10px;
-  background-color: rgb(75, 209, 250);
-  padding: 10px;
+  grid-gap: 5px;
+  background-color: #4bd1fa;
+  padding: 7px;
   overflow-x: auto;
   white-space: nowrap;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
