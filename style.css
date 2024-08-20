@@ -10,7 +10,6 @@ body {
   padding: 7px;
   overflow-x: auto;
   white-space: nowrap;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .tt > div{
