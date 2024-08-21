@@ -39,3 +39,27 @@ body {
 .gray{
   background-color: rgba(255, 255, 255, 0.502);
 }
+
+
+
+/*
+year
+*/
+
+body{
+  background-color: #4bd1fa;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container1{
+  width: 60%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.502);
+}
+
