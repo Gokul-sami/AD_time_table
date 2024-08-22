@@ -10,43 +10,42 @@
 <body>
     <div class="container">
         <div class="container1">
-
             <h2 style="display: flex; align-items: center; justify-content: center;">Welcome</h2>
-            <div class="row g-3">
-                <!-- name -->
-                <div class="col-12">
-                  <label for="firstName" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="firstName" placeholder="John Snow" value="" required>
-                  <div class="invalid-feedback">
-                    Valid name is required.
-                  </div>
-                </div>
+            <form id="form">
+                <div class="row g-3">
+                    <!-- Name -->
+                    <div class="col-12">
+                        <label for="firstName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="John Snow" required>
+                        <div class="invalid-feedback">
+                            Valid name is required.
+                        </div>
+                    </div>
     
-                <!-- Reg no -->
-                <div class="col-12">
-                    <label for="zip" class="form-label">Register number</label>
-                    <input type="text" class="form-control" id="zip" placeholder="311122104001" required>
-                    <div class="invalid-feedback">
-                        Valid Register number is required.
-                      </div>
-                </div>
+                    <!-- Register number -->
+                    <div class="col-12">
+                        <label for="zip" class="form-label">Register number</label>
+                        <input type="text" class="form-control" id="zip" placeholder="311122104001" required>
+                        <div class="invalid-feedback">
+                            Valid Register number is required.
+                        </div>
+                    </div>
 
-                <!-- email -->
-                <div class="col-12">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="name.26csa@licet.ac.in" required>
-                    <div class="invalid-feedback">
-                      Please enter a valid email address.
+                    <!-- Email -->
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="name.26csa@licet.ac.in" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid email address.
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <br>
-			<a href="home.html">
-            <button style="background-color: #35cefd;" id="submit" class="w-100 btn btn-lg" type="submit">Submit</button>
-			</a>
-            
+                <br>
+                <button style="background-color: #35cefd;" id="submit" class="w-100 btn btn-lg" type="submit">Submit</button>
+            </form>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
