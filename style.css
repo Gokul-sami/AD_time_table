@@ -40,10 +40,20 @@ body {
   background-color: rgba(255, 255, 255, 0.502);
 }
 
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading > h1{
+  font-family: "Sacramento", cursive;
+  font-size: 45px;
+  font-weight: bolder;
+  text-shadow: #08acfe 2px 2px;
+}
 
 
 /*
-year
 */
 
 body{
