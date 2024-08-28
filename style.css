@@ -46,7 +46,6 @@ body {
   align-items: center;
 }
 .heading > h1{
-  font-family: "Sacramento", cursive;
   font-size: 45px;
   font-weight: bolder;
   text-shadow: #08acfe 2px 2px;
@@ -75,6 +74,7 @@ body{
 }
 
 #inputDataDisplay{
+  font-family: "Sacramento", cursive;
   display: flex; 
   gap: 20px; 
   justify-content: center; 
