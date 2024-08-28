@@ -74,7 +74,6 @@ body{
 }
 
 #inputDataDisplay{
-  font-family: "Sacramento", cursive;
   display: flex; 
   gap: 20px; 
   justify-content: center; 
