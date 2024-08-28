@@ -6,6 +6,14 @@ document.getElementById('form').addEventListener('submit', function(event) {
         form.classList.add('was-validated');
     } else {
         event.preventDefault();
+        
+        const inputData = {
+            name: document.getElementById('firstName').value,
+            registerNumber: document.getElementById('zip').value,
+            email: document.getElementById('email').value
+        };
+        localStorage.setItem('formData', JSON.stringify(inputData));
+        
         window.location.href = "home.html";
     }
 });

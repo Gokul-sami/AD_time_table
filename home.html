@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
     <div class="heading">
       <h1>III CSE 'A'</h1>
     </div>
+
+	<div id="inputDataDisplay" class="container" style="display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;">
+	</div>
 
         <div class="tt">
 
@@ -71,5 +75,21 @@
 			<div class="white">CN <br> [CS3591]</div>
 
 		</div>
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+    		const formData = JSON.parse(localStorage.getItem('formData'));
+
+    		if (formData) {
+        		const displayDiv = document.getElementById('inputDataDisplay');
+        		displayDiv.innerHTML = `
+            		<div><strong>Name:</strong> ${formData.name}</div>
+            		<div><strong>Register Number:</strong> ${formData.registerNumber}</div>
+            		<div><strong>Email:</strong> ${formData.email}</div>
+        		`;
+    			}
+			});
+		</script>
+
   </body>
 </html>
