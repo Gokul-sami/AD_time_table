@@ -1,7 +1,3 @@
-body {
-  overflow-x: auto;
-}
-
 .tt {
   display: grid;
   grid-template-columns: repeat(11, auto);
@@ -52,11 +48,9 @@ body {
 }
 
 
-/*
-*/
-
 body{
   background-color: #6edafb;
+  overflow-x: auto;
 }
 
 .container{
@@ -79,6 +73,6 @@ body{
   gap: 30px; 
   justify-content: center; 
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
